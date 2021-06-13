@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>
+            Etch-a-Sketch
+        </h1>
+            
+        <div class="options">
+            <button class="option-btn" onclick="chooseColor('black')">
+                Black
+            </button>
+            <button class="option-btn" onclick="chooseColor('RGB')">
+                RGB
+            </button>
+            <button class="option-btn" onclick=clearGrid()>
+                Clear
+            </button>
+            <button class="option-btn" onclick=resetGrid()>
+                Reset
+            </button>
+        </div>
+        
+        <div class="container">
+            <div id="grid">
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
